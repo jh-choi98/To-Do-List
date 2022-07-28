@@ -17,16 +17,24 @@ function deleteToDo(event) {
     saveToDos();
 }
 
+function compleToDo(event) {
+    const li = event.target.parentElement;
+    li.classList.toggle("line-through");
+}
 function addToDo(newToDoObj) {
     const li = document.createElement("li");
     li.id = newToDoObj.id;
     const span = document.createElement("span");
     span.innerText = newToDoObj.text;
-    const button = document.createElement("button");
-    button.innerText = "❌";
-    button.addEventListener("click", deleteToDo);
+    const buttonCompl = document.createElement("button");
+    buttonCompl.innerText = "✅"
+    buttonCompl.addEventListener("click", compleToDo);
+    const buttonDel = document.createElement("button");
+    buttonDel.innerText = "❌";
+    buttonDel.addEventListener("click", deleteToDo);
     li.appendChild(span);
-    li.appendChild(button);
+    li.appendChild(buttonCompl);
+    li.appendChild(buttonDel);
     toDoList.appendChild(li);
 }
 

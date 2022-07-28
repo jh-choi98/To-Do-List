@@ -1,14 +1,7 @@
-input {
-  border: none;
-  border-bottom: 2px solid white;
-  background: none;
-}
-input::placeholder {
-  color: white;
-  font-size: 12px;
-}
-
 #todo-list button {
   border: none;
   background: none;
+}
+li {
+  list-style-type: decimal;
 }

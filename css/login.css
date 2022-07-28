@@ -1,6 +1,8 @@
-#login-form button {
-  color: white;
+#login-form {
+  margin-bottom: 20px;
 }
 #greeting {
   font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }

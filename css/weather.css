@@ -3,4 +3,9 @@
   top: 0;
   right: 0;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#weather span:first-child {
+  margin-bottom: 5px;
 }

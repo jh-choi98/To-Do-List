@@ -1,0 +1,32 @@
+#search,
+#search__form {
+  width: 100%;
+}
+#search__form {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px 3px;
+}
+
+#search__form i {
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+#search__form input {
+  border: none;
+}
+#search__form:focus-within {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  box-shadow: none;
+}
+#search__form:focus-within input {
+  background-color: rgba(255, 255, 255, 0);
+}
+#search__form:focus-within input::placeholder {
+  color: black;
+}
