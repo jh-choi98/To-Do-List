@@ -1,3 +1,7 @@
+@import "weather.css";
+@import "todo.css";
+@import "login.css";
+
 body {
   height: 90vh;
   color: white;
@@ -10,21 +14,6 @@ body {
 }
 .hidden {
   display: none;
-}
-
-input {
-  border: none;
-  border-bottom: 2px solid white;
-  background: none;
-}
-input::placeholder {
-  color: white;
-  font-size: 12px;
-}
-
-button {
-  border: none;
-  background: none;
 }
 
 #quote {
