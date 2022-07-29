@@ -13,7 +13,7 @@ function createClock() {
         amPm.innerText = "PM"
     } else {
         hours = String(hoursInt);
-        amPm.innerText = "PM"
+        amPm.innerText = "AM"
     }
     clock.innerText = `${hours.padStart(2, "0")}:${minutes.padStart(2, "0")}`
     subClock.innerText = `${seconds.padStart(2, "0")}`;

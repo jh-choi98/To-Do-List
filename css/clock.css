@@ -14,7 +14,7 @@
   flex-direction: column;
   position: relative;
   top: 15px;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 #clock-sub span {
   font-size: 45px;
