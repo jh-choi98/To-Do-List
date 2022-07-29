@@ -1,6 +1,26 @@
 #clock h2 {
   font-weight: 600;
-  font-size: 120px;
+  font-size: 140px;
   margin-bottom: 0;
   margin-top: 35px;
+}
+#clock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#clock-sub {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 15px;
+  margin-left: 8px;
+}
+#clock-sub span {
+  font-size: 45px;
+  display: block;
+}
+#clock-sub span:last-child {
+  font-size: 52px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }

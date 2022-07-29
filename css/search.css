@@ -26,7 +26,17 @@
 }
 #search__form:focus-within input {
   background-color: rgba(255, 255, 255, 0);
+  color: black;
 }
 #search__form:focus-within input::placeholder {
   color: black;
+}
+#search__form:focus-within a {
+  color: rgba(0, 0, 0, 0.8);
+}
+a {
+  color: white;
+}
+a:visited {
+  color: white;
 }

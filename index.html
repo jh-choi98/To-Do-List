@@ -11,12 +11,20 @@
     <div id="main-box">
       <div id="search">
         <form id="search__form">
-          <i class="fab fa-google fa-lg"></i>
+          <a href="https://www.google.com" target="_blank"
+            ><i class="fab fa-google fa-lg"></i
+          ></a>
           <input type="text" placeholder="Google Search" />
         </form>
       </div>
       <div id="clock">
-        <h2>00:00:00</h2>
+        <div id="clock-main">
+          <h2>00:00</h2>
+        </div>
+        <div id="clock-sub">
+          <span></span>
+          <span></span>
+        </div>
       </div>
       <form id="login-form" class="hidden">
         <input type="text" placeholder="What is your name" required />
@@ -24,11 +32,7 @@
       <h2 id="greeting" class="hidden"></h2>
 
       <form id="todo-form">
-        <input
-          type="text"
-          placeholder="Write what you plan to do today"
-          required
-        />
+        <input type="text" placeholder="Write what you plan to do" required />
       </form>
 
       <ul id="todo-list"></ul>
@@ -49,6 +53,7 @@
     <script src="js/login.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/search.js"></script>
     <script
       src="https://kit.fontawesome.com/2b1d4fff4f.js"
       crossorigin="anonymous"
