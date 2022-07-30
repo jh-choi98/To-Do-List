@@ -1,8 +1,10 @@
 const TODOS_KEY = "todos";
 
-const toDoForm = document.getElementById("todo-form");
-const toDoInput = document.querySelector("#todo-form input");
-const toDoList = document.getElementById("todo-list");
+const toDoBox = document.getElementById("todo");
+const toDoForm = document.getElementById("todo__form");
+const toDoInput = document.querySelector("#todo__form input");
+const toDoList = document.getElementById("todo__list");
+const toDoBtn = document.querySelector("#todo-btn");
 
 let toDos = [];
 
@@ -61,4 +63,7 @@ if (savedToDos !== null) {
     toDos.forEach(addToDo);
 }
 
-
+function showToDoList() {
+    toDoBox.classList.toggle("hidden");
+}
+toDoBtn.addEventListener("click", showToDoList);

@@ -1,7 +1,48 @@
-#todo-list button {
+#todo {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  bottom: 90px;
+  right: 100px;
+}
+#todo h2 {
+  margin: 12px 0px 0px 13px;
+}
+#todo__list {
+  height: 195px;
+  margin-top: 5px;
+}
+#todo__list button {
   border: none;
   background: none;
 }
 li {
   list-style-type: decimal;
+  margin-bottom: 5px;
+}
+#todo__form {
+  width: 90%;
+}
+#todo,
+#todo__form input,
+#todo__list {
+  color: black;
+}
+#todo__form input {
+  border: none;
+  margin-left: 5px;
+}
+#todo__form input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+#todo-btn {
+  position: absolute;
+  bottom: 50px;
+  right: 95px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
 }

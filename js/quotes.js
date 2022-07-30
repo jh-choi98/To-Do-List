@@ -24,11 +24,6 @@ const quotes = [
         author: "Jesus Christ"
     },
     {
-        quote: `This Book of the Law shall not depart from your mouth, but you shall meditate in it day and night, 
-        that you may observe to do according to all that is written in it. For then you will make your way prosperous, and then you will have good success`,
-        author: "Joshua 1:8"
-    },
-    {
         quote: "To those who have everything, more will be given; from those who have nothing, everything will be taken",
         author: "Matthew Effect"
     },
